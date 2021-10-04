@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Stick+No+Bills:wght@300;400&display=swap');
+
+:root {
+  --text-primary: #ffae00;
+  --background-color-primary: rgb(211, 208, 173);
+  --background-color-secondary: rgb(109, 122, 90);
+}
+
+body {
+  text-align: center;
+  margin: 0;
+
+  font-family: 'Stick No Bills', sans-serif;
+  background-color: var(--background-color-primary);
+  height: 100vh;
+}
+label {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+main {
+  width: 100%;
+  margin-top: 3rem;
+}
+input {
+  text-align: center;
+  padding: 0.5rem;
+  min-width: 300px;
+  border: 2px solid var(--background-color-secondary);
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  min-width: 320px;
+  padding: 0.5rem;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  background-color: var(--background-color-secondary);
+}
+header {
+  color: var(--text-primary);
+  width: 100%;
+  background-color: var(--background-color-secondary);
+  display: flex;
+  justify-content: center;
+}
+footer {
+  color: var(--text-primary);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--background-color-secondary);
+}
+
+#message-container {
+  margin: 1rem;
+  color: darkslategrey;
+}
